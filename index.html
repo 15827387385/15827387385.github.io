@@ -12,7 +12,7 @@
 	<title>添加多个标注点</title>
 </head>
 <body>
-	<div id="allmap"></div>
+	<div id="allmap" style="width:500px;height:320px"></div>
 </body>
 </html>
 <script type="text/javascript">
@@ -35,4 +35,5 @@
 		var point = new BMap.Point(sw.lng + lngSpan * (Math.random() * 0.7), ne.lat - latSpan * (Math.random() * 0.7));
 		addMarker(point);
 	}
+
 </script>
